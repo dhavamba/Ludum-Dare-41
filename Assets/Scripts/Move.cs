@@ -39,7 +39,7 @@ public class Move : MonoBehaviour
                 distMin = diff.magnitude;
                 objective = tr;
                 nodeObj = tr.GetComponent<Node>();
-                _range = Random.Range(0, nodeObj.range);
+                _range = Random.Range(1, nodeObj.range);
             }
         }
     }
@@ -70,7 +70,7 @@ public class Move : MonoBehaviour
         _aux = Random.Range(0, nodeObj.neighboordNodes.Length);
         objective = nodeObj.neighboordNodes[_aux];
         nodeObj = objective.GetComponent<Node>();
-        _range = Random.Range(0, nodeObj.range);
+        _range = Random.Range(1, nodeObj.range);
         SetDirection();
     }
 }
