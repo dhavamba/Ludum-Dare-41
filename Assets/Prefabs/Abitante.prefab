@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4020297788141790}
   - component: {fileID: 212362481885833962}
+  - component: {fileID: 114256243418391760}
   - component: {fileID: 114836434956582342}
   m_Layer: 0
   m_Name: Abitante
@@ -53,8 +54,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1482838779351182}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.43, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.000008726646, w: 1}
+  m_LocalPosition: {x: -5.15, y: -10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4351737229957962}
@@ -132,6 +133,18 @@ MonoBehaviour:
   angleCone: 20
   distance: 5
   enemy: {fileID: 0}
+--- !u!114 &114256243418391760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482838779351182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220283621b642714baebcb117d05efa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeName: 
 --- !u!114 &114550476481355848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,7 +203,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1482838779351182}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f51dc172a9815cb4189a15cea2f7c7f6, type: 3}
   m_Name: 
