@@ -11,28 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4655cdf20e6457ea426ba121929201, type: 3}
   m_Name: GlobalMultiTagHolder
   m_EditorClassIdentifier: 
-  GlobalTagList:
-  - Name: camera
-    ID: 0
-  - Name: player
-    ID: 0
-  - Name: UI
-    ID: 0
-  - Name: use
-    ID: 0
-  - Name: sword
-    ID: 0
-  - Name: attack
-    ID: 0
-  - Name: arrow
-    ID: 0
-  - Name: obstacle
-    ID: 0
-  - Name: power
-    ID: 0
-  - Name: firearrow
-    ID: 0
-  - Name: pool
-    ID: 0
-  - Name: action
-    ID: 0
+  GlobalTagList: []
